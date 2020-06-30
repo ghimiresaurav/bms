@@ -1,0 +1,117 @@
+body{
+    font-family: Montserrat;
+}
+#title{
+    margin-top: 20px;
+}
+table{
+    width: 90%;
+    margin-top: -30px;
+    color: white;
+    opacity: .85;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 40px;
+    visibility: hidden;
+    transition: 650ms;
+}
+tbody{
+    font-size: 17px;
+    line-height: 28px;
+}
+#task{
+    width: 300px;
+    height: 20px;
+    font-size: 15px;
+    width: 50%;
+}
+#btn{
+    margin: 15px;
+    border-radius: 5px;
+    width: 90px;
+    height: 28px;
+    font-size: 14px;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid green;
+}
+#btn:hover{
+    background: rgb(73, 122, 212);
+    font-weight: bold;
+}
+span{
+    cursor: pointer;
+}
+#message-container{
+    width: 60%;
+    height: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#message{
+    transition: 650ms;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fill-out{
+    background: red;
+    color: white;
+}
+.sucess{
+    background: green;
+    color: white;
+}
+#removeBook{
+    width: 16px;
+    height: 16px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+.line{
+    width: 14px;
+    height: 4px;
+    background-color: white;
+    top: 50%;
+    margin: -2px auto auto 1px;
+    position: absolute;
+    border-radius: 2px;
+    transition: 800ms;
+}
+#removeBook:hover{
+    background-color: red;           
+}
+#removeBook:hover #one{
+    transform: rotate(45deg);
+}
+#removeBook:hover #two{
+    transform: rotate(-45deg);
+}
+form{
+    width: 60%;
+    background-color: black;
+    opacity: .8;
+    border-radius: 10px;
+    position: relative;
+    font-family: Poppins;
+    margin-top: 10px;
+}
+input{
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 35px;
+    color: black;
+}

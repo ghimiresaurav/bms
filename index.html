@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <div id="message-container">
+            <p id="message" class=""></p></div>
+        <h2 id="title">Book Management System</h2>
+        <form action="">
+            <label for="book"></label><input type="text" id="book" autocomplete="off" placeholder="Book's Name"><br>
+            <label for="author"></label><input type="text" id="author" autocomplete="off" placeholder="Author"><br>
+            <label for="price"></label><input type="text" id="price" autocomplete="off" placeholder="Price"><br>
+            <button type="submit" id="btn">Add Book</button>
+        </form>
+        <table style="background: black;">
+            <thead style="background: rgb(241, 20, 20)">
+                <tr>
+                    <td>Book(s)</td>
+                    <td>Author</td>
+                    <td>Price</td>
+                    <td>Added On</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody>  
+            </tbody>
+        </table>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
